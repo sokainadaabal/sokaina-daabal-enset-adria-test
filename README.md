@@ -106,5 +106,13 @@ a ce stade le service a pres peut consomer.
 
 ### transfers-service
 nous avons crere les entites, les models , les enums , les repositories et les services et web cette architecture nous avons permet de contacter le micro-service wallet a l'aide de notation
-@FeignClient("wallet-service") et apporter toute information necessaire pour faire un transfers 
+@FeignClient("wallet-service") et dans main de l'application necessaire d'ajouter cette annotation @EnableFeignClients et apporter toute information necessaire pour faire un transfers 
+
 ![serviceTransfers](img/img_7.PNG)
+
+
+ce micro-service rest sauf de l'ajouter une CommandLineRunner pour injecter dans la base de donner de teste
+###### Remarque 
+ces micro-service ne respect pas les bonnes partique, mais il faut le necessaire.
+il rest aussi la partie de front-end. 
+pour voire mes competences en front-end vous pouvez consulter mon git-hub.

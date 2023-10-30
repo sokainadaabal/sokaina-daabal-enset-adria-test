@@ -1,5 +1,6 @@
 package org.sid.transfersservice.services;
 
+import lombok.Data;
 import org.sid.transfersservice.models.Client;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.hateoas.PagedModel;
