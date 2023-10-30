@@ -105,3 +105,6 @@ Après avoir effectué les configurations nécessaires, nous avons réussi à cr
 a ce stade le service a pres peut consomer.
 
 ### transfers-service
+nous avons crere les entites, les models , les enums , les repositories et les services et web cette architecture nous avons permet de contacter le micro-service wallet a l'aide de notation
+@FeignClient("wallet-service") et apporter toute information necessaire pour faire un transfers 
+![serviceTransfers](img/img_7.PNG)
